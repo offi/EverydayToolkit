@@ -1,2 +1,2 @@
 # EverydayToolkit
-A toolkit for everyday development
+A toolkit for everyday web development

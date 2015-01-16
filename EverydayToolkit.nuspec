@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<package>
+  <metadata>
+    <id>EverydayToolkit</id>
+    <version>$version$</version>
+    <title>Everyday Toolkit</title>
+    <authors>Ilya Kabanov</authors>
+    <licenseUrl>https://github.com/offi/EverydayToolkit/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/offi/EverydayToolkit</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A toolkit for everyday web development</description>
+    <tags>asp.net mvc5</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.0" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.0.0" />
+    </dependencies>
+  </metadata>
+</package>
