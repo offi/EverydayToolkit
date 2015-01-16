@@ -16,4 +16,7 @@
       <dependency id="Microsoft.AspNet.Mvc" version="5.0.0" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="EverydayToolkit\bin\Release\EverydayToolkit.dll" target="lib\net45" />
+  </files>
 </package>
