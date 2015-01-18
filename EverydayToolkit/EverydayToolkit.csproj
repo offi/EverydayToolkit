@@ -73,7 +73,23 @@
   <ItemGroup>
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Core\JsonNetResult.cs" />
+    <Compile Include="Filters\LanguageActionFilterAttribute.cs" />
+    <Compile Include="Localization\ILanguageSource.cs" />
+    <Compile Include="Localization\CultureInfoHelper.cs" />
+    <Compile Include="Localization\ILanguage.cs" />
+    <Compile Include="Localization\ILocalizationSource.cs" />
+    <Compile Include="Localization\ILocalizationSourceManager.cs" />
+    <Compile Include="Localization\LanguageSources\EnglishLanguageSource.cs" />
+    <Compile Include="Localization\LanguageSources\MultilingualSource.cs" />
+    <Compile Include="Localization\Languages\EnglishLanguage.cs" />
+    <Compile Include="Localization\Languages\RussianLanguage.cs" />
+    <Compile Include="Localization\LocalizationHelper.cs" />
+    <Compile Include="Localization\LanguageSources\RussianLanguageSource.cs" />
+    <Compile Include="Localization\LocalizationSourceManager.cs" />
+    <Compile Include="Localization\LocalizationSources\NullLocalizationSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\EverydayViewT.cs" />
+    <Compile Include="Views\EverydayView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
