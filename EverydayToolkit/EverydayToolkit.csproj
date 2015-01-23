@@ -72,7 +72,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\SitemapController.cs" />
     <Compile Include="Core\JsonNetResult.cs" />
+    <Compile Include="Core\Sitemap\ChangeFrequency.cs" />
+    <Compile Include="Core\Sitemap\SitemapBuilder.cs" />
+    <Compile Include="Core\Sitemap\SiteUrl.cs" />
     <Compile Include="Filters\LanguageActionFilterAttribute.cs" />
     <Compile Include="Localization\ILanguageSource.cs" />
     <Compile Include="Localization\CultureInfoHelper.cs" />
