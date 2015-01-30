@@ -77,7 +77,8 @@
     <Compile Include="Core\Sitemap\ChangeFrequency.cs" />
     <Compile Include="Core\Sitemap\SitemapBuilder.cs" />
     <Compile Include="Core\Sitemap\SiteUrl.cs" />
-    <Compile Include="Filters\LanguageActionFilterAttribute.cs" />
+    <Compile Include="Attributes\ActionFilters\Languages.cs" />
+    <Compile Include="Attributes\ActionFilters\NoCache.cs" />
     <Compile Include="Localization\ILanguageSource.cs" />
     <Compile Include="Localization\CultureInfoHelper.cs" />
     <Compile Include="Localization\ILanguage.cs" />

@@ -2,9 +2,9 @@
 using System.Web.Mvc;
 using EverydayToolkit.Localization;
 
-namespace EverydayToolkit.Filters
+namespace EverydayToolkit.Attributes.ActionFilters
 {
-    public class LanguageActionFilterAttribute : ActionFilterAttribute
+    public class Languages : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
