@@ -21,6 +21,11 @@ namespace EverydayToolkit.Core
             Settings.Converters.Add(new StringEnumConverter { CamelCaseText = true });
         }
 
+        public JsonNetResult(JsonSerializerSettings settings)
+        {
+            Settings = settings;
+        }
+
         public JsonSerializerSettings Settings { get; private set; }
 
         public override void ExecuteResult(ControllerContext context)
