@@ -11,5 +11,6 @@ namespace EverydayToolkit.Localization
         string Name { get; }
         string Url { get; }
         string Code { get; }
+        int Position { get; }
     }
 }

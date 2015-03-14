@@ -1,20 +1,25 @@
 ﻿namespace EverydayToolkit.Localization.Languages
 {
-    internal class EnglishLanguage : ILanguage
+    public class EnglishLanguage : ILanguage
     {
-        public string Name
+        public virtual string Name
         {
             get { return "English"; }
         }
 
-        public string Url
+        public virtual string Url
         {
             get { return "en"; }
         }
 
-        public string Code
+        public virtual string Code
         {
             get { return "en"; }
+        }
+
+        public virtual int Position
+        {
+            get { return 0; }
         }
     }
 }

@@ -2,19 +2,24 @@
 {
     public class RussianLanguage : ILanguage
     {
-        public string Name
+        public virtual string Name
         {
             get { return "Русский"; }
         }
 
-        public string Url
+        public virtual string Url
         {
             get { return "ru"; }
         }
 
-        public string Code
+        public virtual string Code
         {
             get { return "ru"; }
+        }
+
+        public virtual int Position
+        {
+            get { return 0; }
         }
     }
 }
