@@ -39,6 +39,11 @@ namespace EverydayToolkit.Localization
             sourceManager.Value.RegisterSource<T>();
         }
 
+        public static void RegisterLocalizationSource(ILocalizationSource source)
+        {
+            sourceManager.Value.RegisterSource(source);
+        }
+
         #endregion
 
         #region # Languages
@@ -80,6 +85,11 @@ namespace EverydayToolkit.Localization
         public static void RegisterLanguageSource<T>() where T : ILanguageSource
         {
             languageSource = Activator.CreateInstance<T>();
+        }
+
+        public static void RegisterLanguageSource(ILanguageSource source)
+        {
+            languageSource = source;
         }
 
         #endregion
