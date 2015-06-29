@@ -80,6 +80,10 @@
     <Compile Include="Core\Sitemap\SiteUrl.cs" />
     <Compile Include="Attributes\ActionFilters\Languages.cs" />
     <Compile Include="Attributes\ActionFilters\NoCache.cs" />
+    <Compile Include="ViewModels\BaseResult.cs" />
+    <Compile Include="ViewModels\ErrorResult.cs" />
+    <Compile Include="ViewModels\ResultType.cs" />
+    <Compile Include="ViewModels\SuccessResult.cs" />
     <Compile Include="Localization\ILanguageSource.cs" />
     <Compile Include="Localization\CultureInfoHelper.cs" />
     <Compile Include="Localization\ILanguage.cs" />
