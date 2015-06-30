@@ -19,27 +19,27 @@ namespace EverydayToolkit.Controllers
             };
         }
 
-        protected JsonResult Success()
+        protected JsonResult JsonSuccess()
         {
             return Json(new SuccessResult());
         }
 
-        protected JsonResult Success(object data)
+        protected JsonResult JsonSuccess(object data)
         {
             return Json(new SuccessResult(data));
         }
 
-        protected JsonResult Error()
+        protected JsonResult JsonError()
         {
             return Json(new ErrorResult());
         }
 
-        protected JsonResult Error(string message)
+        protected JsonResult JsonError(string message)
         {
             return Json(new ErrorResult(new [] { message }));
         }
 
-        protected JsonResult Error(IEnumerable<string> messages)
+        protected JsonResult JsonError(IEnumerable<string> messages)
         {
             return Json(new ErrorResult(messages));
         }
