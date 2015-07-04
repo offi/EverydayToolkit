@@ -21,27 +21,27 @@ namespace EverydayToolkit.Controllers
 
         protected JsonResult JsonSuccess()
         {
-            return Json(new SuccessResult());
+            return Json(new SuccessResult(), JsonRequestBehavior.AllowGet);
         }
 
         protected JsonResult JsonSuccess(object data)
         {
-            return Json(new SuccessResult(data));
+            return Json(new SuccessResult(data), JsonRequestBehavior.AllowGet);
         }
 
         protected JsonResult JsonError()
         {
-            return Json(new ErrorResult());
+            return Json(new ErrorResult(), JsonRequestBehavior.AllowGet);
         }
 
         protected JsonResult JsonError(string message)
         {
-            return Json(new ErrorResult(new [] { message }));
+            return Json(new ErrorResult(new [] { message }), JsonRequestBehavior.AllowGet);
         }
 
         protected JsonResult JsonError(IEnumerable<string> messages)
         {
-            return Json(new ErrorResult(messages));
+            return Json(new ErrorResult(messages), JsonRequestBehavior.AllowGet);
         }
     }
 }
